@@ -125,7 +125,7 @@ export default function Home() {
           currentDogs.map((el) => {
             return (
               <div>
-                <Link to={`/home/${el.id}`}>
+                <Link to={`/dogs/${el.id}`}>
                   <Card
                     name={el.name}
                     image={
