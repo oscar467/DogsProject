@@ -20,12 +20,12 @@ export default function Detail(props){
             {
                 myDog.length>0 ? 
                     <div>
-                        <h1>soy {myDog[0].name}</h1>
+                        <h1>Im {myDog[0].name}</h1>
                         <img src={myDog[0].image} width='500px' height='500px'/>
-                        <h2>Height {myDog[0].height}</h2>
-                        <h2>Weight {myDog[0].Weight}</h2>
-                        <h2>life span {myDog[0].life_span}</h2>
-                        <h2>Temperaments {!myDog[0].createdInDB? myDog[0].temperaments: myDog[0].temperaments.map(el => el.name +(' '))}</h2>
+                        <h2>Height: {myDog[0].height}</h2>
+                        <h2>Weight: {myDog[0].Weight}</h2>
+                        <h2>life span: {myDog[0].life_span}</h2>
+                        <h2>my's Temperaments: {!myDog[0].createdInDB? myDog[0].temperaments: myDog[0].temperaments.map(el => el.name +(' '))}</h2>
                     </div> : <p>Not found</p>
             }
             <Link to= '/home'>
