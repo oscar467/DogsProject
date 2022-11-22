@@ -1,0 +1,16 @@
+body {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f7de4328-4e51-4862-8220-6aabc364e8ac/da74er5-6aa4443c-7a89-4c06-ac1b-687627a7b4ad.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y3ZGU0MzI4LTRlNTEtNDg2Mi04MjIwLTZhYWJjMzY0ZThhY1wvZGE3NGVyNS02YWE0NDQzYy03YTg5LTRjMDYtYWMxYi02ODc2MjdhN2I0YWQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jpKRIoS4r7Tftw9_Y0VQg3BwWzETuJNVsYNdUcuTrac);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

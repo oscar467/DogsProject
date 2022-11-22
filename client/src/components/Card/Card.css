@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root{
+  --main-color: hsl(257, 68%, 73%);
+  --light-red: hsl(0, 67%, 71%);
+  --light-yellow: hsl(42, 73%, 74%);
+  --black-90: hsl(0, 0%, 10%);
+  --black-70: hsl(0, 0%, 30%);
+  --white: hsl(0,0%,100%);
+  --white-alpha-50: hsl(42,71%,87%);
+  --border-color-1: hsl(42, 45%, 73%);
+  --border--color-2: hsla(44,45%,73%);
+  --shadow-color: hsl(42,45%,73%);
+  }
+
+.card {
+    width: 250px;
+    height: 380px;
+    padding: 10px;
+    cursor: pointer;
+    background: var(--white);
+    border-radius: 5px;
+    border: 1px solid var(--main-color);
+    transition: all .2s;
+    box-shadow: 12px 12px 2px 1px var(--main-color);
+}
+
+.card:hover {
+    box-shadow: -12px 12px 2px -1px var(--main-color);
+   }
+   
+
+.card .img {
+    aspect-ratio: 1;
+    border-radius: 15%;
+    background: #f2f2f3;
+    box-shadow: -5px -5px 8px #ffffff7a,
+        5px 5px 8px #a9a9aa7a;
+}
+
+.card .info {
+    text-align: center;
+    margin-top: 0.4em;
+    
+}
+
+.card .info>span {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.temperaments li {
+    margin-top: 1em;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(0, 194, 255, 1) 0%, rgba(0, 86, 255, 1) 100%);
+    padding: .5em 2em;
+    border-radius: 0.7em;
+}
