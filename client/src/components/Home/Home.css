@@ -50,31 +50,32 @@ h1,h2,h3,h4{
   color: var(--black-70);
   box-shadow: 0 0.4rem var(--white-alpha-50);
   cursor: pointer;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
  }
 .top{
-  padding: 15px;
+  padding: 10px;
   background-color: var(--light-red);
-  margin: auto;
   place-content: center;
   text-align: center;
 }
 
 .bar{
-  padding: 15px;
-  padding-left: 10%;
-  padding-right: 10%;
   align-content: center;
   left: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr 2fr 1fr;
   grid-template-rows: 1fr;
-  grid-row-gap: 0px;
+  grid-column-gap: 15px;
   position: absolute;
   place-content: center;
   text-align: center;
   width: 100%;
+  height: 12%;
   background-color: var(--light-red);
   top: 50px;
+  padding: 0px 15% 0px 15%
 }
 
 
@@ -85,12 +86,12 @@ h1,h2,h3,h4{
   text-align: center;
   width: 70%;
   left: 30vh;
-  top: 130px;
+  top: 17%;
 }
 
 .containerCards {
   position: absolute;
-  top: 210px;
+  top: 26%;
   left: 30vh;
   place-items: center;
   text-align: center;
@@ -112,22 +113,27 @@ button{
   padding: 10px 20px 10px 20px;
   right: 0;
  }
+
 .buttons button{
   background: var(--main-color);
   border-radius: 10px;
   box-shadow: 0 0.2rem var(--white-alpha-50);
-  padding: 10px 50px 10px 50px;
+  padding: 5px 40px 5px 40px;
+  margin: 10px 0px 5px 0px;
  }
-
- .buttons {
-  right: 0;
+ .buttons{
+  border-radius: 25px;
+  background-color: var(--black-70);
+  margin: 5px 0px 5px 0px;
  }
-
-.containerFilters{
-  min-width: 300px;
-}
-
+ 
  .filters{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+  margin: 0px 20px 0px 20px;
+ }
+
+ .filters select{
+  width: 100%;
  }

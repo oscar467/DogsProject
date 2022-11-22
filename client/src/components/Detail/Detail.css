@@ -21,12 +21,16 @@
     --shadow-color: hsl(42, 45%, 73%);
 }
 
+.containerDetail span {
+    color: var(--light-red);
+}
+
 .containerDetail{
-  position: absolute;
-  top: 10%;
-  left: 25%;
-  place-items: center;
-  text-align: center;
+    display: flex;
+    width: 60vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
   display: grid;
   padding: 20px;
   background: linear-gradient(135deg, #ebadb6 0%, #aceae1 100%);
@@ -36,3 +40,20 @@
 img{
     border-radius: 30%;
 }
+
+.center{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerDetail h1,h2,h3,h4{
+    line-height: 1.2;
+    color: var(--white);
+    margin-bottom: 0.5em;
+    background-color: var(--black-70);
+    padding: 5px;
+    border-radius: 50px;
+  }

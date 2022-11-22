@@ -16,21 +16,23 @@ export default function Detail(props){
     const myDog = useSelector ((state) => state.detail)
 
     return (
-        <div className="containerDetail">
+        <div className="center">
+            <div className="containerDetail">
             {
                 myDog.length>0 ? 
                     <div>
-                        <h1>Im {myDog[0].name}</h1>
+                        <h1><span>Im</span> {myDog[0].name}</h1>
                         <img src={myDog[0].image} width='500px' height='500px'/>
-                        <h2>Height: {myDog[0].height} cm</h2>
-                        <h2>Weight: {myDog[0].weight} kg</h2>
-                        <h2>life span: {myDog[0].life_span} years</h2>
-                        <h2>my's Temperaments: {!myDog[0].createdInDB? myDog[0].temperaments: myDog[0].temperaments.map(el => el.name +(' '))}</h2>
+                        <h2><span>Height:</span> {myDog[0].height} cm</h2>
+                        <h2><span>Weight:</span> {myDog[0].weight} kg</h2>
+                        <h2><span>life span:</span> {myDog[0].life_span} years</h2>
+                        <h2><span>my's Temperaments:</span> {!myDog[0].createdInDB? myDog[0].temperaments: myDog[0].temperaments.map(el => el.name +(' '))}</h2>
                     </div> : <p>Not found</p>
             }
             <Link to= '/home'>
                 <button>Return</button>
             </Link>
+        </div>
         </div>
     )
 }
